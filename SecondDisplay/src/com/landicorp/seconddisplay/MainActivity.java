@@ -17,6 +17,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Toast;
 
+//双屏显示
 public class MainActivity extends Activity implements View.OnClickListener {
 	Intent pressentationService;// 拓展屏幕服务
 	private final int SELECT_REQUEST_CODE = 0;
