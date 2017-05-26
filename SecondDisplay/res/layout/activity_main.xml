@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/selectAd"
+        android:layout_width="150dip"
+        android:layout_height="100dip"
+        android:onClick="addAd"
+        android:text="添加广告"
+        android:textSize="24dip" />
+
+    <Button
+        android:id="@+id/clearAd"
+        android:layout_width="150dip"
+        android:layout_height="100dip"
+        android:onClick="clearAd"
+        android:text="清除广告"
+        android:textSize="24dip" />
+
+    <Button
+        android:id="@+id/playAd"
+        android:layout_width="150dip"
+        android:layout_height="100dip"
+        android:onClick="playAd"
+        android:text="播放广告"
+        android:textSize="24dip" />
+
+    <Button
+        android:id="@+id/stopAd"
+        android:layout_width="150dip"
+        android:layout_height="100dip"
+        android:onClick="stopAd"
+        android:text="停止播放"
+        android:textSize="24dip" />
+
+    <Button
+        android:id="@+id/showMessage"
+        android:layout_width="150dip"
+        android:layout_height="100dip"
+        android:onClick="showMessage"
+        android:text="显示对话框"
+        android:textSize="24dip" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="150dip"
+        android:layout_height="100dip"
+        android:onClick="exit"
+        android:text="退出"
+        android:textSize="24dip" />
+
+</LinearLayout>
